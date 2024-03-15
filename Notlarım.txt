@@ -10,3 +10,70 @@ const pi = 3.14 => Değişmeyecek bir değer tanımlıyorsan const kullan.
 
 let youtubeChannel = "Mehmet Ali", channelAge = 10, isChannelStillActive = true, secondChannel = null, channelMoney = undefined => Her seferinde let yazmana gerek yok. Tek bir let ve virgül kullanarak değişken tanımlayabilirsin.
 
+console.log(numOne == numTwo) => Karşılaştırma yapar. Eşitse true, değilse false döner.
+
+let name = "Mehmet", name[0]="a" yaparsam, ismin ilk harfini değiştirmez.
+
+let dizi = [1, "Mehmet", true] => dizi türündeki değişkenler birden fazla değişken türünü içinde barındırabilir.
+
+let dizi = [1, "Mehmet", true, []] => Dizi içerisinde dizi de tutulabilir.
+
+console.log(numbers == nums) => false döner çünkü diziler değiştirilebilirdir. Bu yüzden ikisine eşit diyemez. Objelerde de bu durum geçerli.
+
+Math.round => en yakın sayıya yuvarlama işlemi.
+
+Math.floor => en yakın alt tam sayıya yuvarlar.
+
+Math.ceil => en yakın üst tam sayıya yuvarlar.
+
+Math.min(-5, 3, 20, 4, 5, 10) => -5, en küçük sayı.
+
+Math.max(-5, 3, 20, 4, 5, 10) => 20, en büyük sayı.
+
+Math.random() => 0 ile 0.999999 arasında random sayı.
+
+const randNum2=Math.floor(Math.random() * 11) => 0 ile 10 arasında random sayı.
+
+console.log(Math.abs(-10)) => Mutlak değer
+
+console.log(Math.sqrt(100)) => Karekök alma
+
+console.log(Math.pow(3,2)) => Üst alma, 3x3=9
+
+Alt satırda yazdığına devam etmek için ters parantez kullan(\).
+
+console.log(`Selam ${isim}`) => Yazının içerisinde değişken çağırmak istiyorsan yazıyı ` ` bu tırnakların içerisine yaz.
+
+string.toUpperCase() => Harfleri büyütür.
+
+string.toLowerCase() => Harfleri küçültür.
+
+string.substring(4,10) =>  4. indexten itibaren  10. indexe kadar harfleri al. İkinci indexi belirtmeden de kullanabilirsin.
+
+string.substr(4,6) => 4. indexten başla sonraki 6 karakteri al.
+
+string.split(" ") => fonksiyonda belirtilen karakteri gördüğü yerlerden bölerek diziye atama yapar.
+
+console.log(isim.split("").reverse().join("")) => Harflerine ayır, harfleri ters çevir, harfleri birleştir.
+
+string.includes("Java") => string içerisinde fonksiyon içerisindeki kelime geçiyor mu onu kontrol eder. True ya da False döner.
+
+isimSoyisim.replace("Ali", "Curry") => isimSoyisim değişkenindeki "Ali" yerine "Curry" yaz.
+
+isimSoyisim.replaceAll("Ali", "Curry") => isimSoyisim değişkenindeki bütün "Ali" kelimelerinin yerine "Curry" yaz.
+
+string.charCodeAt(index) => indexi belirtilen karakterin ASCII değerini döndürür.
+
+string.indexOf(index) =>  Belirtilen karakterin ilk geldiği yerin indexini bul.
+
+string.lastIndexOf(index) => Belirtilen indexteki karakterin son harfinin indexini bul.
+
+isimSoyisim.startsWith("Mehmet") => Belirtilen değişken indexteki şeyle başlıyor mu? True ya da False döner.
+
+isimSoyisim.endsWith("TONGA") => Belirtilen değişken indexteki şeyle bitiyor mu? True ya da False döner.
+
+isim.repeat(5) => istenen değişken indexte belirtilen kez tekrar edilir.
+
+let num = "10" > parseInt(num) > Number(num) > +num => Bu üç yöntem de string ifadeyi integer ifadeye çevirir.
+
+
