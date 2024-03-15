@@ -1,0 +1,12 @@
+3**2 == 3 Üzeri 2 demek == 9
+
+let => bilinmeyen türü tanımlama.
+
+console.log(typeof "Mehmet") => typof türü döndürür. => String
+
+// yorum satırı, /* Arası tümden yorum satırı */
+
+const pi = 3.14 => Değişmeyecek bir değer tanımlıyorsan const kullan.
+
+let youtubeChannel = "Mehmet Ali", channelAge = 10, isChannelStillActive = true, secondChannel = null, channelMoney = undefined => Her seferinde let yazmana gerek yok. Tek bir let ve virgül kullanarak değişken tanımlayabilirsin.
+
