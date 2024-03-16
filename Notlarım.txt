@@ -76,4 +76,34 @@ isim.repeat(5) => istenen değişken indexte belirtilen kez tekrar edilir.
 
 let num = "10" > parseInt(num) > Number(num) > +num => Bu üç yöntem de string ifadeyi integer ifadeye çevirir.
 
+https://i.hizliresim.com/2t6f1ma.jpg => operatörler
+
+console.log(a==b) => Değer aynı mı diye kontrol eder.(==)
+
+console.log(a===b) => Hem değer hem de değişken türü aynı mı diye kontrol eder.(===)
+
+&& => ve , || => ya da , ! => değil(olumsuzlama, tersine çevirme)
+
+(++a) => ilk işlemden önce değer artar. Direk +1 hali döner.
+
+(a++) => ilk işlemden sonra değer artar. İlk işlem ilk sonunu döndürür, +1 alır. Bu iki durum çıkartma(--a, a--) işlemlerinde de geçerlidir.
+
+isRaining
+    ? console.log("It's raining") => True ise bu çıktıyı verir.
+    : console.log("It's not raining") => False ise bu çıktıyı verir. İf else gibi düşün.
+
+isRaining ? console.log("It's raining") : console.log("It's not raining") => Aynı işlem tek satırda da yapılabilir.
+
+KOŞUL ? True : False => Bu şekilde öğren.
+
+alert("Selam Canim") => Popup açar. Mesajı yazdırır.
+
+prompt("Bir sayı giriniz.", "Sayı yalnızda pozitif değer olabilir.") => Kullanıcıdan bir girdi istenir. İkinci cümle istenen textbox'ın içerisinde yazan cümledir.
+
+confirm("Emin misin?") => Kullanıcıya evet, hayır sorusu soran popup açar. Tamam seçilirse True, değilse False döner.
+
+https://i.hizliresim.com/bhtbevx.jpg => getDate metodlarının tamamı. (getFullYear, getMonth, getDate,...)
+
+let okunabilirTarih = `${day} ${months[month]} ${year}, ${days[dayNumber]}, ${hours}:${minutes}:${seconds}` => 16 Mart 2024, Cumartesi, 13:11:22 formatında yazar. Yazım şekillerine dikkat et. Diziden eleman çağırırken bu şekilde çağırabilirsin.
+
 
