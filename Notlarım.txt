@@ -106,4 +106,37 @@ https://i.hizliresim.com/bhtbevx.jpg => getDate metodlarının tamamı. (getFull
 
 let okunabilirTarih = `${day} ${months[month]} ${year}, ${days[dayNumber]}, ${hours}:${minutes}:${seconds}` => 16 Mart 2024, Cumartesi, 13:11:22 formatında yazar. Yazım şekillerine dikkat et. Diziden eleman çağırırken bu şekilde çağırabilirsin.
 
+const arr = Array() => İçerisine değer girersen o dizinin eleman sayısını belirtmiş olursun.
+const arr = [] => İki şekilde de dizi tanımlanabilir.
 
+Objenin içersinde dizi, dizinin içerisinde de obje tutulabilir. => {[]}, [{}]
+
+arr.fill(7) => Diziyi belirtilen elemanla doldurur.
+
+arr1.concat(arr2) => dizi1 ile dizi2 yi birleştirir.
+
+arr.indexOf(1) => Girilen değerin dizide kaçıncı indexte tutulduğunu dönderir. Dizide yoksa -1 döner.
+
+indexOf() => Kullanımının yanında if else ile dizi içerisinde bir elemanın olup olmadığını kontrol edebilirsin.
+
+arr.includes(1) => Dizi içerisinde istenen eleman bulunuyor mu bunun kontrolünü sağlar. True ya da False dönüş yapar.
+
+Array.isArray(arr) => Değişkenin dizi olup olmadığını kontrol eder. True ya da False dönüş yapar.
+
+markalar.toString() => Diziyi stringe çevirir. audi,bmw,mercedes,volkswagen Böyle bir çıktı verir.
+
+arr.join("-") => Dizinin elemanlarını belirtilen ifadeyi aralarına koyarak birleştirir.
+
+arr.slice(1,4) => Dizideki belirtilen indexten itibarenki verileri döndürür. İkinci index dahil değildir. (1. eleman dahil, 4. eleman dahil değil.)
+
+arr.push('eklenecek') => Dizinin sonuna yeni bir eleman ekler
+
+arr.pop() => Dizinin sonundaki elemanı çıkartır.
+
+arr.shift() => Dizinin başındaki elemanı çıkartır.
+
+arr.unshift("ilk eleman") => Dizinin başına eleman ekler.
+
+arr.reverse() => Dizinin elemanlarını tersine çevirir.
+
+arr.sort() => Dizinin elemanlarına alfabetik sıralama uygular.
