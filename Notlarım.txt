@@ -145,3 +145,9 @@ Döngülerde continue kullanırsan istenen şart sağlanınca o şartı atlar ve
 
 Döngülerde break kullanırsan istenen şart sağlanınca döngüyü bitirir.
 
+Bir dizi tanımlanırken kaç parametre geleceğini belirtmeden tanımlarsak, "argument" kullanarak istediğimiz kadar parametre gönderebilir ve bu parametreleri işleme sokabiliriz.(7. günde örneği mevcut)
+
+Self Invoking Functions(Kendi kendini çağıran foksiyonlar) konusunun 7. günde örnekleri var. İncele
+
+Arrow Function konusunun 7. günde örnekleri var. İncele
+
