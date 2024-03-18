@@ -140,3 +140,8 @@ arr.unshift("ilk eleman") => Dizinin başına eleman ekler.
 arr.reverse() => Dizinin elemanlarını tersine çevirir.
 
 arr.sort() => Dizinin elemanlarına alfabetik sıralama uygular.
+
+Döngülerde continue kullanırsan istenen şart sağlanınca o şartı atlar ve devam eder.
+
+Döngülerde break kullanırsan istenen şart sağlanınca döngüyü bitirir.
+
