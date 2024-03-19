@@ -147,7 +147,36 @@ Döngülerde break kullanırsan istenen şart sağlanınca döngüyü bitirir.
 
 Bir dizi tanımlanırken kaç parametre geleceğini belirtmeden tanımlarsak, "argument" kullanarak istediğimiz kadar parametre gönderebilir ve bu parametreleri işleme sokabiliriz.(7. günde örneği mevcut)
 
+Fonksiyon Türleri => Declaration Funciton, Expression Funciton, Anonymous Funciton, Arrow Funciton
+
+const sayHello = function(name){ return `Hello ${name}`} => Anonymous(parametre almaz),expression(parametre alır)
+
+;(function(){console.log("Selam")})() => Self Invoking Functions(Kendi kendini çağıran fonksiyonlar) Bu fonksiyonlardan önce noktalı virgül koy yoksa hata alırsın.
+
 Self Invoking Functions(Kendi kendini çağıran foksiyonlar) konusunun 7. günde örnekleri var. İncele
+
+const hello3 = (name, surname) => `Hello ${name} ${surname}` //Arrow functions birden çok parametre de alabilir.
 
 Arrow Function konusunun 7. günde örnekleri var. İncele
 
+var, let ve const kullanarak değişken tanımlanabilir. const kullanıldığında değer değiştirilemez. let kullan.
+
+Değişkenler Window, Global ve Local olmak üzere 3 e ayrılı. 8. gün dersinde detaylı örnekleri var.
+
+Objelerin içerisinde fonksiyon da tanımlanabilir. 8. gün dersinde detaylı örnekleri var.
+
+let newObject = Object.assign({},object) => Eski objeden yeni bir obje yaratmak isteniyorsa bu şekilde yapılır. Birbirlerinden bağımsız 2 obje yaratılmış olur.
+
+let newObject = object => Yapılırsa, bir objede yapılan değiişklik diğer objede de gerçekleşir. Birbirlerine bağımlıdırlar.
+
+Object.keys(object) => Objenin barındırdığı bütün key'leri dönderir.
+
+Object.values(object) => Objenin barındırdığı bütün değerleri dönderir.
+
+Object.entries(object) => Objenin barındırdığı hem key'leri hem değerleri array şeklinde dönderir.
+
+user.hasOwnProperty("country") => Objenin key'leri arasında istenilen değerin olup olmadığını kontrol eder. True ya da False dönüş yapar.
+
+Object.freeze(user) => Bu metodu uygularsan ne yeni bir property tanımlayabilirsin ne de değişiklik yapabilirsin.
+
+Object.seal(user) => Bu metodu uygularsan yeni bir property ekleyemezsin ama mevcut olanları değiştirebilirsin.
