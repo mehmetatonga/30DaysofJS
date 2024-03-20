@@ -180,3 +180,40 @@ user.hasOwnProperty("country") => Objenin key'leri arasında istenilen değerin 
 Object.freeze(user) => Bu metodu uygularsan ne yeni bir property tanımlayabilirsin ne de değişiklik yapabilirsin.
 
 Object.seal(user) => Bu metodu uygularsan yeni bir property ekleyemezsin ama mevcut olanları değiştirebilirsin.
+
+numbers.forEach((num) => total += num) => forEach kullanımı.
+
+Fonksiyonlarda parametre olarak yine bir fonksiyon gönderilebilir. 9. gün derslerinde örnekleri var.
+
+setInterval(sayHello,1000) => Belli aralıklarla çalışacak olan fonksiyonlarda kullanılır.
+
+setTimeout(sayHello,1000) => Tek seferlik çalışır. Belirtilen süre sonra aktif olur.
+
+clearInterval(interval) => Önceden devam eden intervali durdurmaya yarar.
+
+clearTimeout(setTimeout) => Halihazırda çalışıyor olan timeOut işlemini iptal eder.
+
+numbers.map(numbers => numbers * 2) => map fonksiyonu sayesinde diziler ve objelerde değişiklikler yapılabilir. 9. gün dersinde örneği var.
+
+const woman = users.filter(user => user.gender === 2) => filter filtrelemeye yarar. User dizisi içerisindeki kadınları filtreler.
+
+numbers.reduce((oldValue, currentValue)=>oldValue + currentValue , 0) => reduce kullanarak da dizinin elemanlarıyla işlem yapılabilir.
+
+users.every(user => user.gender === 1) => Dizideki bütün elemanlar istenilen gibi mi kontrol eder. Biri bile farklıysa false döndürür. True ya da False döndürür.
+
+users.some(user => user.gender === 1) => Dizideki en az bir eleman istenilen gibi mi kontrol eder. True ya da False döndürür.
+
+numbers.find(numbers => numbers > 3) => İstenilen koşulu sağlayan ilk elemanı döndürür.
+
+users.findIndex(users => users.id===3) => İstenilen koşulu sağlayan elemanın index değerini döndürür.
+
+names.sort() => Belirtilen dizinin alfabetik sıraya göre sıralanmasını sağlar. A'dan Z'ye
+
+names.sort((a,b)=> a.localeCompare(b)) => A'dan Z'ye sıralama yapar.
+
+console.log(names.sort((a,b)=> b.localeCompare(a))) => Z'den A'ya sıralama yapar.
+
+sayilar.sort((x,y)=>x-y) => Sayıları küçükten büyüğe sıralama işlemi.
+
+sayilar.sort((x,y)=>y-x) => Sayıları büyükten küçüğe sıralama işlemi.
+
