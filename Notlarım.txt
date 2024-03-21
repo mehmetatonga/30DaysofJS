@@ -217,3 +217,20 @@ sayilar.sort((x,y)=>x-y) => Sayıları küçükten büyüğe sıralama işlemi.
 
 sayilar.sort((x,y)=>y-x) => Sayıları büyükten küçüğe sıralama işlemi.
 
+set => array'e benzer. Farkı her elemanın unique olmasıdır. İçerisinde olan bir eleman eklenilmeye çalışılırsa eklenemez. 10. gün derslerine bakabilirsin.
+
+const companies = new Set() => set bu şekilde tanımlanır.
+
+companies.add('Google') => set içerisine add ile eleman eklenebilir.
+
+const names = new Set(["Mehmet","Ahmet","Hakan"]) => set içerisine array alabilir.
+
+names.delete("Mehmet") => set içerisinden istenen elemanın çıkarılmasını sağlar.
+
+names.clear() => set içerisindeki bütün elemanları siler.
+
+map => objeye benzer. key'ler istenilen veri türleriyle oluşturulabilir. 10. gün derslerine bakabilirsin.
+
+map.set("name","Mehmet") => oluşturulan map içerisine key ve eleman eklemek için set kullanılır.
+
+let map = new Map(Object.entries(obj)) => Önceden tanımlanmış bir objeyi map'e çevirir.
