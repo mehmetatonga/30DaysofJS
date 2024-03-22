@@ -231,6 +231,23 @@ names.clear() => set içerisindeki bütün elemanları siler.
 
 map => objeye benzer. key'ler istenilen veri türleriyle oluşturulabilir. 10. gün derslerine bakabilirsin.
 
-map.set("name","Mehmet") => oluşturulan map içerisine key ve eleman eklemek için set kullanılır.
+map.set("name","Mehmet") => Oluşturulan map içerisine key ve eleman eklemek için set kullanılır.
 
 let map = new Map(Object.entries(obj)) => Önceden tanımlanmış bir objeyi map'e çevirir.
+
+destructing => Bir array içerisindeki elemanı farklı bir değişken adıyla tutabilmemizi sağlar. 11. gün dersinde detaylı örnekleri var.
+
+const nums = [10, 20, 30];
+const [number1, number2, number3] = nums => Dizinin şeklini bozma (destructing)
+
+const {surname} = user => Objelerde bu yöntemi kullanırken key'in kendisini kullanmamız gerek. Öylesine bir key belirleyemeyiz.
+
+const {name:ad} = user => Bu şekilde key istenilen isimle değiştirilebilir.
+
+const sayilar = [1,2,3,4,5,6,7,8,9,10]
+let [sayi1, sayi2, sayi3, ...digerSayilar] = sayilar => rest operatörü (...) sayesinde kalan elemanları array halinde tutmaya devam eder.
+
+const arr2 = [...arr1] => arr1 dizisini bağımsız bir şekilde kopyalar. Dizi kopyalama. Bu durumun aynısı obje için de geçerli. Obje kopyalama.
+
+console.log([6,...deneme,10]) => Mevcut bir dizinin başına ve sonuna eleman ekleme.
+
