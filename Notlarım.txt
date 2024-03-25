@@ -2,6 +2,31 @@
 
 let => bilinmeyen türü tanımlama.
 
+console.log("İstenilen yazı.") => console' a yazdırılmak istenen yazıyı yazdırır.
+
+console.log("%d, %s Mehmet",10,15) => Substitution, c gibi değişkenlerin yerine %d ve %s kullan.
+
+console.log("%cDUR!","font-size: 50px;color:red") => %c yaparak css yazılabilir.
+
+console.warn("Uyarı!") => console'a uyarı düşürmek için kullanılır. Sarı satır şeklinde gelir.
+
+console.error("Hata!") => console'a hata düşürmek için kullanılır. Kırmızı satır şeklinde gelir.
+
+console.table(arr) => Alınan diziyi tablo şeklinde döndürür.
+
+console.time("Yavaş saniye") => Bir bloktaki zamanı ölçmeye başlar.
+console.timeEnd("Yavaş saniye") => Ölçülen zamanı durdurur ve console'a yazar.
+
+console.info("Selam") => console.log() ile aynı işlemi yapar.
+
+console.assert(4<3, "Bu bir hatadır.") => Assertion işlemi. İstenilen koşul false dönüyorsa console'a hata düşer.
+
+console.group("Ülke Listesi") => Gruplama yapmak istenilen kısmı açar.
+console.log(countriesArr) => Gruplanmak istenen fonksiyonlar araya yazılmalıdır.
+console.groupEnd() => Gruplama yapmak istenilen kısmı kapatır.
+
+
+
 console.log(typeof "Mehmet") => typof türü döndürür. => String
 
 // yorum satırı, /* Arası tümden yorum satırı */
