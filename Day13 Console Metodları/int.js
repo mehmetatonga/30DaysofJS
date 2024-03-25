@@ -23,7 +23,12 @@ console.info("Selam") //console.log() ile aynı işlemi yapar.
 
 console.assert(4<3, "Bu bir hatadır.") //Assertion işlemi. İstenilen koşul false dönüyorsa console'a hata düşer.
 
-const countries=["Türkiye","Hollanda","Amerika","Norveç","Fransa"]
-console.group("Ülke Listesi")
-console.log(countries)
-console.groupEnd()
+const countriesArr=["Türkiye","Hollanda","Amerika","Norveç","Fransa"]
+console.group("Ülke Listesi") //Gruplamayı başlatır.
+console.log(countriesArr)
+console.log("Bu log ülke grubuna aittir.") //Gruplanmak istenen durumlar araya yazılır.
+console.groupEnd() //Gruplamayı bitirir.
+
+console.count(arr) //İçerisine girilen dizinin kaç kere çağırıldığını console'a yazdırır.
+
+//console.clear() //console'u temizler.

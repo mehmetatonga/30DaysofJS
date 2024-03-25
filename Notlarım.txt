@@ -25,7 +25,9 @@ console.group("Ülke Listesi") => Gruplama yapmak istenilen kısmı açar.
 console.log(countriesArr) => Gruplanmak istenen fonksiyonlar araya yazılmalıdır.
 console.groupEnd() => Gruplama yapmak istenilen kısmı kapatır.
 
+console.count(arr) => İçerisine girilen dizinin kaç kere çağırıldığını console'a yazdırır.
 
+console.clear() => console'u temizler.
 
 console.log(typeof "Mehmet") => typof türü döndürür. => String
 
